@@ -233,11 +233,11 @@ See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for detailed guidelines.
 ## Support
 
 **Issues:**
-- Report bugs or inaccuracies: https://github.com/langcare/langcare-mcp-fhir/issues
+- Report bugs or inaccuracies: https://github.com/idjevm/langcare-mcp-fhir/issues
 - Include FHIR server type, resource type, and error message
 
 **Questions:**
-- GitHub Discussions: https://github.com/langcare/langcare-mcp-fhir/discussions
+- GitHub Discussions: https://github.com/idjevm/langcare-mcp-fhir/discussions
 - Email: support@langcare.ai (for private inquiries)
 
 **Updates:**

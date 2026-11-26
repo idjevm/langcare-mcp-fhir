@@ -1,6 +1,6 @@
 # LangCare Voice Agent
 
-Real-time voice AI agent that connects patients to their electronic health records over WebRTC or phone. Built on [PipeCat](https://docs.pipecat.ai/), powered by Claude, with FHIR R4 data access via [LangCare MCP](https://github.com/langcare/langcare-mcp-fhir).
+Real-time voice AI agent that connects patients to their electronic health records over WebRTC or phone. Built on [PipeCat](https://docs.pipecat.ai/), powered by Claude, with FHIR R4 data access via [LangCare MCP](https://github.com/idjevm/langcare-mcp-fhir).
 
 ## Architecture
 

@@ -260,7 +260,7 @@ Change the `-config` argument to point at your OpenEMR YAML:
 }
 ```
 
-If you installed via npm, the `command` is just `langcare-mcp-fhir` (or use `npx @langcare/langcare-mcp-fhir`):
+If you installed via npm, the `command` is just `langcare-mcp-fhir` (or use `npx @idjevm/langcare-mcp-fhir`):
 
 ```json
 {

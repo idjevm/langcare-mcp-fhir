@@ -17,10 +17,10 @@ The CLI handles the MCP protocol internally — agents never see JSON-RPC, sessi
 ### Option 1: pip install from GitHub
 
 ```bash
-pip install "langcare-cli @ git+https://github.com/langcare/langcare-mcp-fhir.git#subdirectory=cli"
+pip install "langcare-cli @ git+https://github.com/idjevm/langcare-mcp-fhir.git#subdirectory=cli"
 
 # Or with pipx (recommended — isolated environment)
-pipx install "langcare-cli @ git+https://github.com/langcare/langcare-mcp-fhir.git#subdirectory=cli"
+pipx install "langcare-cli @ git+https://github.com/idjevm/langcare-mcp-fhir.git#subdirectory=cli"
 ```
 
 ### Option 2: Install from source

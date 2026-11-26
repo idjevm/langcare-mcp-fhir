@@ -1,9 +1,9 @@
 # LangCare MCP FHIR Server
 
-[![GitHub Stars](https://img.shields.io/github/stars/langcare/langcare-mcp-fhir?style=social)](https://github.com/langcare/langcare-mcp-fhir)
-[![Contributors](https://img.shields.io/github/contributors/langcare/langcare-mcp-fhir)](https://github.com/langcare/langcare-mcp-fhir/graphs/contributors)
-[![License](https://img.shields.io/github/license/langcare/langcare-mcp-fhir)](https://github.com/langcare/langcare-mcp-fhir/blob/main/LICENSE)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/langcare/langcare-mcp-fhir)](https://github.com/langcare/langcare-mcp-fhir/blob/main/go.mod)
+[![GitHub Stars](https://img.shields.io/github/stars/idjevm/langcare-mcp-fhir?style=social)](https://github.com/idjevm/langcare-mcp-fhir)
+[![Contributors](https://img.shields.io/github/contributors/idjevm/langcare-mcp-fhir)](https://github.com/idjevm/langcare-mcp-fhir/graphs/contributors)
+[![License](https://img.shields.io/github/license/idjevm/langcare-mcp-fhir)](https://github.com/idjevm/langcare-mcp-fhir/blob/main/LICENSE)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/idjevm/langcare-mcp-fhir)](https://github.com/idjevm/langcare-mcp-fhir/blob/main/go.mod)
 
 Enterprise-grade MCP Server for FHIR-based EMRs. Fully written in Go with enterprise-grade security and 4 generic FHIR operations that work with any FHIR R4 resource type. Supports **EPIC**, **Cerner**, **OpenEMR**, **GCP Healthcare API**, and any generic FHIR R4 server.
 
@@ -22,13 +22,13 @@ Ships with a **[40+ Clinical Skills Library](skills/README.md)** — agent-agnos
 Install via npm:
 
 ```bash
-npm install -g @langcare/langcare-mcp-fhir
+npm install -g @idjevm/langcare-mcp-fhir
 ```
 
 Or use directly without installation:
 
 ```bash
-npx @langcare/langcare-mcp-fhir -config /path/to/config.yaml
+npx @idjevm/langcare-mcp-fhir -config /path/to/config.yaml
 ```
 
 ## Quick Configuration
@@ -39,11 +39,11 @@ LangCare MCP FHIR connects Claude to your FHIR-based EMR system. You need a YAML
 
 Choose your backend:
 
-- **EPIC:** [config.epic.example.yaml](https://github.com/langcare/langcare-mcp-fhir/blob/main/configs/config.epic.example.yaml)
-- **Cerner:** [config.cerner.example.yaml](https://github.com/langcare/langcare-mcp-fhir/blob/main/configs/config.cerner.example.yaml)
-- **OpenEMR:** [config.openemr.example.yaml](https://github.com/langcare/langcare-mcp-fhir/blob/main/configs/config.openemr.example.yaml)
-- **GCP Healthcare API:** [config.gcp.example.yaml](https://github.com/langcare/langcare-mcp-fhir/blob/main/configs/config.gcp.example.yaml)
-- **Any FHIR R4 Server:** [config.base.example.yaml](https://github.com/langcare/langcare-mcp-fhir/blob/main/configs/config.base.example.yaml)
+- **EPIC:** [config.epic.example.yaml](https://github.com/idjevm/langcare-mcp-fhir/blob/main/configs/config.epic.example.yaml)
+- **Cerner:** [config.cerner.example.yaml](https://github.com/idjevm/langcare-mcp-fhir/blob/main/configs/config.cerner.example.yaml)
+- **OpenEMR:** [config.openemr.example.yaml](https://github.com/idjevm/langcare-mcp-fhir/blob/main/configs/config.openemr.example.yaml)
+- **GCP Healthcare API:** [config.gcp.example.yaml](https://github.com/idjevm/langcare-mcp-fhir/blob/main/configs/config.gcp.example.yaml)
+- **Any FHIR R4 Server:** [config.base.example.yaml](https://github.com/idjevm/langcare-mcp-fhir/blob/main/configs/config.base.example.yaml)
 
 ### 2. Configure Claude Desktop
 
@@ -69,7 +69,7 @@ On macOS, the config is typically at:
 
 Close and reopen Claude Desktop. The FHIR tools will now be available.
 
-**Need detailed setup help?** See the [Local Testing Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md).
+**Need detailed setup help?** See the [Local Testing Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md).
 
 ## Architecture
 
@@ -170,7 +170,7 @@ Auth2: FHIR Backend Authentication (Bearer/OAuth2/SMART on FHIR)
 - **Basic Auth** - Username/password authentication
 - **Custom** - Extensible for additional auth methods
 
-**For complete security documentation, see [Security Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/SECURITY.md):**
+**For complete security documentation, see [Security Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/SECURITY.md):**
 - HIPAA compliance checklist
 - OAuth configuration for EPIC/Cerner/GCP
 - Kubernetes security manifests
@@ -227,7 +227,7 @@ AI agents use LangCare MCP FHIR Server to help healthcare professionals access a
 - HIPAA-compliant PHI handling with audit logging
 - Comprehensive OAuth2 scopes for clinical data access
 
-**📖 Complete guide:** [Agent Prompt Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/AGENT_PROMPT.md) - System prompt, tool examples, workflows, and error handling
+**📖 Complete guide:** [Agent Prompt Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/AGENT_PROMPT.md) - System prompt, tool examples, workflows, and error handling
 
 ## Clinical Skills Library (Optional)
 
@@ -367,7 +367,7 @@ Supports EPIC and GCP Healthcare API providers. See **[fly/README.md](fly/README
 
 For step-by-step instructions on setting up EPIC credentials and testing locally:
 
-**[📖 Local Testing Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md)**
+**[📖 Local Testing Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md)**
 
 This guide covers:
 - Generating RSA keys and JWKS
@@ -511,7 +511,7 @@ Command-line interface that wraps the 4 FHIR MCP tools (`fhir_search`, `fhir_rea
 
 ```bash
 # Install
-pip install "langcare-cli @ git+https://github.com/langcare/langcare-mcp-fhir.git#subdirectory=cli"
+pip install "langcare-cli @ git+https://github.com/idjevm/langcare-mcp-fhir.git#subdirectory=cli"
 
 # Use
 langcare fhir search Patient --query "name=John"
@@ -527,24 +527,24 @@ The 40+ clinical skills in the [Skills Library](skills/README.md) work as-is —
 ## Documentation
 
 ### Getting Started
-- **[📖 Local Development & Testing Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md)** - Complete guide for local setup and testing
+- **[📖 Local Development & Testing Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md)** - Complete guide for local setup and testing
 - **[🚀 Installation & Configuration](#installation)** - Quick setup guide above
 
 ### Agent Integration
-- **[🤖 Agent Prompt Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/AGENT_PROMPT.md)** - Complete guide for AI agents using LangCare MCP FHIR (tool examples, workflows, best practices)
+- **[🤖 Agent Prompt Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/AGENT_PROMPT.md)** - Complete guide for AI agents using LangCare MCP FHIR (tool examples, workflows, best practices)
 
 ### Security & Authentication
-- **[🛡️ Security Documentation](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/SECURITY.md)** - Complete security architecture and HIPAA compliance
-- **[🔐 EPIC Setup Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/EPIC-APP-SECURITY.md)** - JWT authentication, key generation, and JWKS registration
-- **[🔐 OpenEMR Setup Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/OPENEMR-APP-SECURITY.md)** - SMART on FHIR Backend Services (`private_key_jwt`/RS384) setup, JWKS generation, and OpenEMR API client registration
-- **[📋 EPIC Scopes Reference](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/EPIC-SCOPES.md)** - Complete OAuth2 scopes guide for FHIR resources
+- **[🛡️ Security Documentation](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/SECURITY.md)** - Complete security architecture and HIPAA compliance
+- **[🔐 EPIC Setup Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/EPIC-APP-SECURITY.md)** - JWT authentication, key generation, and JWKS registration
+- **[🔐 OpenEMR Setup Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/OPENEMR-APP-SECURITY.md)** - SMART on FHIR Backend Services (`private_key_jwt`/RS384) setup, JWKS generation, and OpenEMR API client registration
+- **[📋 EPIC Scopes Reference](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/EPIC-SCOPES.md)** - Complete OAuth2 scopes guide for FHIR resources
 - **[🔑 Authentication Methods](#supported-authentication-methods)** - Supported auth methods
 
 ### Deployment
-- **[Fly.io Deployment Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/FLY-DEPLOYMENT.md)** - Remote Streamable HTTP deployment, provider configs, secrets, Docker
+- **[Fly.io Deployment Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/FLY-DEPLOYMENT.md)** - Remote Streamable HTTP deployment, provider configs, secrets, Docker
 
 ### Development & Testing
-- **[🧪 Testing Methods](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md#testing-with-claude-desktop)** - Claude Desktop, MCP Inspector, manual testing, and automation
+- **[🧪 Testing Methods](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md#testing-with-claude-desktop)** - Claude Desktop, MCP Inspector, manual testing, and automation
 - **[📦 Project Structure](#project-structure)** - Directory layout and architecture
 - **[🔧 Build Commands](#development--testing)** - Development workflow
 
@@ -573,9 +573,9 @@ Default configuration uses HAPI FHIR public test server (`https://hapi.fhir.org/
 
 ### Test Your Setup
 
-- **[📖 Local Development & Testing Guide](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md)** - Complete guide for setup, testing with Claude Desktop, MCP Inspector, and automation
-- **[🔐 EPIC Security Setup](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/EPIC-APP-SECURITY.md)** - Detailed EPIC authentication guide
-- **[🛡️ Security Documentation](https://github.com/langcare/langcare-mcp-fhir/blob/main/docs/SECURITY.md)** - Production deployment and security
+- **[📖 Local Development & Testing Guide](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/LOCAL-TESTING.md)** - Complete guide for setup, testing with Claude Desktop, MCP Inspector, and automation
+- **[🔐 EPIC Security Setup](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/EPIC-APP-SECURITY.md)** - Detailed EPIC authentication guide
+- **[🛡️ Security Documentation](https://github.com/idjevm/langcare-mcp-fhir/blob/main/docs/SECURITY.md)** - Production deployment and security
 
 ## Claude Managed Agents
 
@@ -652,22 +652,22 @@ See **[apps/README.md](apps/README.md)** for the development guide.
 - Monitoring and observability setups
 - CI/CD pipelines
 
-**Get started:** Read [CONTRIBUTING.md](https://github.com/langcare/langcare-mcp-fhir/blob/main/CONTRIBUTING.md) for detailed guidelines, code standards, and submission process.
+**Get started:** Read [CONTRIBUTING.md](https://github.com/idjevm/langcare-mcp-fhir/blob/main/CONTRIBUTING.md) for detailed guidelines, code standards, and submission process.
 
 **Recognition:** Contributors are credited in README, release notes, and skill/integration author credits. Outstanding contributors may be invited as maintainers.
 
-**Questions?** Open a [GitHub Discussion](https://github.com/langcare/langcare-mcp-fhir/discussions) or [issue](https://github.com/langcare/langcare-mcp-fhir/issues)!
+**Questions?** Open a [GitHub Discussion](https://github.com/idjevm/langcare-mcp-fhir/discussions) or [issue](https://github.com/idjevm/langcare-mcp-fhir/issues)!
 
 ## Community
 
-- **GitHub Discussions** - Ask questions, share ideas: https://github.com/langcare/langcare-mcp-fhir/discussions
-- **GitHub Issues** - Report bugs, request features: https://github.com/langcare/langcare-mcp-fhir/issues
-- **Contributing Guide** - How to contribute: https://github.com/langcare/langcare-mcp-fhir/blob/main/CONTRIBUTING.md
-- **Skills** - Clinical workflows: https://github.com/langcare/langcare-mcp-fhir/blob/main/skills/README.md
+- **GitHub Discussions** - Ask questions, share ideas: https://github.com/idjevm/langcare-mcp-fhir/discussions
+- **GitHub Issues** - Report bugs, request features: https://github.com/idjevm/langcare-mcp-fhir/issues
+- **Contributing Guide** - How to contribute: https://github.com/idjevm/langcare-mcp-fhir/blob/main/CONTRIBUTING.md
+- **Skills** - Clinical workflows: https://github.com/idjevm/langcare-mcp-fhir/blob/main/skills/README.md
 
 ## License
 
-See [LICENSE](https://github.com/langcare/langcare-mcp-fhir/blob/main/LICENSE) file.
+See [LICENSE](https://github.com/idjevm/langcare-mcp-fhir/blob/main/LICENSE) file.
 
 ---
 

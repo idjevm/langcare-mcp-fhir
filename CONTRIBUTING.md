@@ -433,7 +433,7 @@ git push origin integration/your-agent-name
 
 ```bash
 # Clone repository
-git clone https://github.com/langcare/langcare-mcp-fhir.git
+git clone https://github.com/idjevm/langcare-mcp-fhir.git
 cd langcare-mcp-fhir
 
 # Install dependencies
@@ -722,8 +722,8 @@ Add entry to CHANGELOG.md (if exists) or PR description:
 
 ### Getting Help
 
-- **GitHub Discussions** - Questions, ideas, showcase: https://github.com/langcare/langcare-mcp-fhir/discussions
-- **GitHub Issues** - Bugs, feature requests: https://github.com/langcare/langcare-mcp-fhir/issues
+- **GitHub Discussions** - Questions, ideas, showcase: https://github.com/idjevm/langcare-mcp-fhir/discussions
+- **GitHub Issues** - Bugs, feature requests: https://github.com/idjevm/langcare-mcp-fhir/issues
 - **Email** - Private inquiries: support@langcare.ai
 
 ### Communication Channels

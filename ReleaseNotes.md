@@ -153,7 +153,7 @@ Fallback via `mcp-remote` for clients without native support:
 
 Each skill includes detailed `references/` files with scoring criteria, code tables (LOINC, SNOMED, RxNorm, ICD-10), and society guideline citations.
 
-**Full catalog:** [skills/README.md](https://github.com/langcare/langcare-mcp-fhir/blob/main/skills/README.md)
+**Full catalog:** [skills/README.md](https://github.com/idjevm/langcare-mcp-fhir/blob/main/skills/README.md)
 
 ### 🔐 Security Features
 
@@ -173,4 +173,4 @@ Each skill includes detailed `references/` files with scoring criteria, code tab
 
 ---
 
-**Get Started:** See [README](https://github.com/langcare/langcare-mcp-fhir#quick-start) for build instructions, [Local Testing Guide](docs/LOCAL-TESTING.md) for setup, and [Security Docs](docs/SECURITY.md) for production deployment.
+**Get Started:** See [README](https://github.com/idjevm/langcare-mcp-fhir#quick-start) for build instructions, [Local Testing Guide](docs/LOCAL-TESTING.md) for setup, and [Security Docs](docs/SECURITY.md) for production deployment.
